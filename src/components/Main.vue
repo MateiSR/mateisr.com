@@ -4,7 +4,7 @@ import { computed } from 'vue';
 
 // Assuming this is your social links data
 const socialLinks = [
-  { icon: ['fab', 'discord'], link: '@mateisr' },
+  { icon: ['fab', 'discord'], link: 'https://discordapp.com/users/240781589066285056', linkText: '@mateisr' },
   { icon: ['fab', 'linkedin'], link: 'https://www.linkedin.com/in/matei-radu-4a4718196/', linkText: "linkedin" },
   { icon: ['fab', 'github'], link: 'https://github.com/MateiSR', linkText: "github" },
   { icon: ['fas', 'screwdriver-wrench'], link: 'https://tools.mateisr.com/', linkText: "tools (wip)", },
