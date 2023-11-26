@@ -7,7 +7,7 @@ const socialLinks = [
   { icon: ['fab', 'discord'], link: 'https://discordapp.com/users/240781589066285056', linkText: '@mateisr' },
   { icon: ['fab', 'linkedin'], link: 'https://www.linkedin.com/in/matei-radu-4a4718196/', linkText: "linkedin" },
   { icon: ['fab', 'github'], link: 'https://github.com/MateiSR', linkText: "github" },
-  { icon: ['fas', 'screwdriver-wrench'], link: 'https://tools.mateisr.com/', linkText: "tools (wip)", },
+  { icon: ['fas', 'screwdriver-wrench'], link: '', linkText: "tools", },
   { icon: ['fas', 'key'], link: 'https://gist.githubusercontent.com/MateiSR/5bec7d2acca024f081d5dcb0b92786c6/raw/25b63ac75dd7544c240efa19582c01453ceaf9cd/gistfile1.txt', linkText: "public ssh key" }
   // Add more social links as needed
 ];
