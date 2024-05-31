@@ -50,7 +50,7 @@ const rows = computed(() => {
         <br />
         <div class="mt-4">
           <font-awesome-icon class="mr-2" :icon="['fas', 'envelope']" />
-          <span class="link"><a href="mailto:mateisr@proton.me">mateisr@proton.me</a></span>
+          <span class="link"><a href="mailto:mail@mateisr.com">mail@mateisr.com</a></span>
         </div>
       </div>
     </div>
