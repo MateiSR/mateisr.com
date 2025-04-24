@@ -1,12 +1,20 @@
+import Tile from "./components/Tile";
+import TileBox from "./components/TileBox";
+
 export default function Home() {
   return (
-      <div className="flex flex-col md:flex-row h-full w-full gap-4">
-        <div className="tile flex flex-col items-center justify-center flex-1 p-4">
-          <p>Tile 1</p>
-        </div>
-        <div className="tile flex flex-col items-center justify-center flex-1 p-4">
+    <TileBox className="flex-col md:flex-row">
+      <Tile>
+        <p>Tile 1</p>
+      </Tile>
+      <TileBox className="flex-col">
+        <Tile>
           <p>Tile 2</p>
-        </div>
-      </div>
+        </Tile>
+        <Tile>
+          <p>Tile 3</p>
+        </Tile>
+      </TileBox>
+    </TileBox>
   );
 }
