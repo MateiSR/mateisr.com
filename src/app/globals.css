@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/images/orange_smoke_edited.webp");
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+.tile {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  color: #eeeeee
+}
+
+.tile:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 1px solid rgba(154, 90, 0, 0.8);
+}
