@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+const firaCode = Fira_Code({
+  variable: "--font-fira-code",
   subsets: ["latin"],
   weight: ["400", "500", "700"], // Adjust weights as needed
 });
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${dmSans.variable} antialiased h-screen w-screen flex flex-col`}>
+      <body className={`${firaCode.className} antialiased h-screen w-screen flex flex-col`}>
         <div className="m-4 mb-0">
           <Navbar />
         </div>
@@ -32,4 +32,3 @@ export default function RootLayout({
     </html>
   );
 }
-
