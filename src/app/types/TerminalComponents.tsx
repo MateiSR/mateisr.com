@@ -1,7 +1,8 @@
 import { ReactNode } from "react";
 
-export interface TileProps {
-  children?: ReactNode;
+export interface TLineProps {
+  children: ReactNode;
   className?: string;
   [key: string]: any; // For any additional props
 }
+
