@@ -4,10 +4,10 @@ import { TLineProps } from '../types/TerminalComponents';
 const TerminalLine: React.FC<TLineProps> = ({ children, className = '', ...props }) => {
   return (
     <div
-      className={`terminal-line flex items-center text-sm font-mono ${className}`}
+      className={`terminal-line flex items-center font-mono ${className}`}
       {...props}
     >
-      <span className="text-green-500 pr-1.5">[root@mateisr ~]# </span>
+      <span className="text-[#935751] pr-4">[root@mateisr ~]# </span>
       {children}
     </div>
   );
