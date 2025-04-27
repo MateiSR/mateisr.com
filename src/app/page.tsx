@@ -15,46 +15,38 @@ export default function Home() {
 
         <div className="flex flex-col">
 
-          <TerminalLine className="text-lg">whoami</TerminalLine>
+          <TerminalLine className="text-base lg:text-lg xl:text-xl">whoami</TerminalLine>
 
-          <span className="text-white text-lg font-mono">Matei Radu</span>
-          <span className="text-white text-lg font-mono">---------------------------</span>
+          <span className="text-white text-base lg:text-lg xl:text-xl font-mono">Matei Radu</span>
+          <span className="text-white text-base lg:text-lg xl:text-xl font-mono">---------------------------</span>
 
           <div className="flex">
-            <span className="text-white text-lg font-mono w-24">email:</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono w-24">email:</span>
             <Link href="mailto:mateisr@pm.me">
-              <span className="text-[#995900] text-lg font-mono">mateisr@pm.me</span>
+              <span className="text-[#995900] text-base lg:text-lg xl:text-xl font-mono">mateisr@pm.me</span>
             </Link>
           </div>
 
           <div className="flex">
-            <span className="text-white text-lg font-mono w-24">github:</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono w-24">github:</span>
             <Link href="https://github.com/MateiSR/" target="_blank" rel="noopener noreferrer">
-              <span className="text-[#995900] text-lg font-mono">github.com/mateisr</span>
+              <span className="text-[#995900] text-base lg:text-lg xl:text-xl font-mono">github.com/mateisr</span>
             </Link>
           </div>
 
         </div>
 
         <div className="flex flex-col mt-2">
-
-          <TerminalLine className="text-lg">about</TerminalLine>
-
-          <div className="flex flex-col">
-            <span className="text-white text-lg font-mono">I am a Bachelor's student at the <span className="underline decoration-dashed">Faculty of Computer Science</span>, part of <span className="italic">"Alexandru Ioan Cuza" University</span> of Iasi.</span>
-
-            <span className="text-white text-lg font-mono">My expertise spans <span className="underline decoration-dashed">full-stack development</span> with <span className="underline decoration-dashed">React</span> and <span className="underline decoration-dashed">Next.js</span>, crafting <span className="underline decoration-dashed">API integrations</span>, and developing <span className="underline decoration-dashed">Discord bots</span>.</span>
-
-            <span className="text-white text-lg font-mono">I enjoy tackling <span className="underline decoration-dashed">system administration</span> challenges, working with <span className="underline decoration-dashed">Linux environments</span>, <span className="underline decoration-dashed">Proxmox virtualization</span>, and <span className="underline decoration-dashed">Docker containerization</span>.</span>
-
-            <span className="text-white text-lg font-mono">I'm passionate about <span className="underline decoration-dashed">DevOps</span> practices, implementing <span className="underline decoration-dashed">CI/CD pipelines</span>, and automating deployments with <span className="underline decoration-dashed">GitHub Actions</span>.</span>
-
-            <span className="text-white text-lg font-mono">I'm constantly exploring ways to combine these technologies to build cool and useful apps.</span>
-
-            <span className="text-white text-lg font-mono">If you're interested in collaborating with me, or have a good project suggestion, don't hesitate to get in contact.</span>
+          <TerminalLine className="text-base lg:text-lg xl:text-xl">about</TerminalLine>
+          <div className="flex flex-col gap-4">
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono">I am a Bachelor's student at the <span className="underline decoration-dashed">Faculty of Computer Science</span>, part of <span className="italic">"Alexandru Ioan Cuza" University</span> of Iasi.</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono">My expertise spans building projects in <span className="underline decoration-dashed">C/C++</span>, <span className="underline decoration-dashed">Java</span>, <span className="underline decoration-dashed">Python</span>, <span className="underline decoration-dashed">TypeScript/JavaScript</span>, <span className="underline decoration-dashed">bash</span> scripting, deploying apps with  <span className="underline decoration-dashed">Docker</span> as well as <span className="underline decoration-dashed">full-stack development</span> with <span className="underline decoration-dashed">React</span> and <span className="underline decoration-dashed">Next.js</span>,</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono">I enjoy tinkering with <span className="underline decoration-dashed">Linux environments</span>, be it crafting bash scripts to make life easier, re-writing my <Link href="https://github.com/mateisr/dotfiles" className="underline text-[#995900]">dotfiles</Link>, or writing Dockerfiles to deploy stuff via <Link href="https://github.com/dokku/dokku" className="italic text-[#800b00]">dokku</Link> and <span className="underline decoration-dashed">Cloudflare Tunnels</span> to my <span className="underline decoration-dashed">Proxmox</span> environment.</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono">Furthermore, I'm also passionate about <span className="underline decoration-dashed">DevOps</span> practices and implementing <span className="underline decoration-dashed">CI/CD pipelines</span> with <span className="underline decoration-dashed">GitHub Actions</span>.</span>
+            <span className="text-white text-base lg:text-lg xl:text-xl font-mono">If you're interested in collaborating on a project, don't hesitate to get in contact.</span>
           </div>
-
         </div>
+
       </Tile>
       <TileBox className="flex-col">
         <Tile>
