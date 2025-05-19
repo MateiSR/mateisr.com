@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="darkreader-lock" />
+      </head>
       <body className={`${firaCode.className} antialiased h-screen w-screen flex flex-col`}>
         <div className="m-4 mb-0">
           <Navbar />
